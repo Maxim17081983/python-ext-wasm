@@ -16,7 +16,7 @@ name = "wasmer"
 crate-type = ["cdylib"]
 
 [dependencies]
-wasmer = { version = "2.0", default-features = false, features = ["wat", "universal", "dylib", "compiler"] }
+wasmer = { version = "3.0", default-features = false, features = ["wat", "universal", "dylib", "compiler"] }
 wasmer_engines = { path = "../engines/" }
 wasmer-types = "2.0"
 wasmer-wasi = "2.0"
